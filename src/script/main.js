@@ -34,7 +34,7 @@ class Heroi {
     }
 }
 const heroi = new Heroi();
-heroi.xp = 6000;
+
 botaoRegistraHeroi.addEventListener("click", () => {
     heroi.nome = pegaNomeDoHeroi.value;
     heroi.xp = pegaXpDoHeroi.value;
